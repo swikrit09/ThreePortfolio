@@ -76,7 +76,7 @@ scene.background = spaceTexture;
 
 const swikkiTexture = new THREE.TextureLoader().load('swikki2.jpg');
 
-const swikki = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: swikkiTexture }));
+const swikki = new THREE.Mesh(new THREE.BoxGeometry(2, 2, 2), new THREE.MeshBasicMaterial({ map: swikkiTexture }));
 
 scene.add(swikki);
 
@@ -99,8 +99,8 @@ moon.position.z = -30;
 moon.position.setX(30);
 moon.position.setY(10);
 
-swikki.position.z = 5;
-swikki.position.x = -2;
+swikki.position.z = 6;
+swikki.position.x = -1.5;
 
 
 // // Scroll Animation
