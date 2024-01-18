@@ -74,7 +74,7 @@ scene.background = spaceTexture;
 
 // // Avatar
 
-const swikkiTexture = new THREE.TextureLoader().load('swikki2.jpg');
+const swikkiTexture = new THREE.TextureLoader().load('./public/swikki2.jpg');
 
 const swikki = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: swikkiTexture }));
 
