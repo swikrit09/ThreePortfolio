@@ -41,7 +41,7 @@ pointLight.position.set(5, 5, 5);
 scene.add(pointLight);
 
 const ambientLight = new THREE.AmbientLight(0xffffff);
-scene.add(ambientLight);
+scene.add( ambientLight);
 
 // Helpers
 
@@ -74,7 +74,7 @@ scene.background = spaceTexture;
 
 // // Avatar
 
-const swikkiTexture = new THREE.TextureLoader().load('https://drive.google.com/file/d/13xVCOb1MzGPUw125HWqMkkQPwM56tjwI/view?usp=sharing');
+const swikkiTexture = new THREE.TextureLoader().load('swikki2.jpg');
 
 const swikki = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: swikkiTexture }));
 
